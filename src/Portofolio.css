@@ -705,14 +705,14 @@ body {
 
 .project-description {
   color: #94a3b8;
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  padding-bottom: 1rem;
+  line-height: 1.8;
 }
 
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .project-tag {

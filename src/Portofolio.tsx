@@ -74,7 +74,7 @@ const Portfolio = () => {
       description:
         "Auction Based Websites that was build with using React, amd also Motoko for the blockchain experience.  ",
       image: Website2Image,
-      tags: ["React", "Motoko", "CSS", "Team Innovation", "Team Collaboration"],
+      tags: ["React", "Motoko", "CSS"],
       github: "#",
       live: "https://zagp4-4aaaa-aaaah-qqcaq-cai.icp0.io/",
       year: "2025",
@@ -219,7 +219,7 @@ const Portfolio = () => {
                 </div>
                 <div className="info-item">
                   <MapPin className="w-6 h-6 info-icon" />
-                  <span>Tangerang, Alam Sutera , Indonesia</span>
+                  <span>Alam Sutera, Tangerang, Indonesia</span>
                 </div>
                 <div className="info-item">
                   <Bike className="w-6 h-6 info-icon" />
@@ -247,7 +247,6 @@ const Portfolio = () => {
                 </div>
                 <ul className="card-list">
                   <li>• 3rd Winner 14th ICP Hackathon Indonesia</li>
-                  <li>• Tutor Responsive Class Mid exams</li>
                 </ul>
               </div>
             </div>
