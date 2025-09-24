@@ -27,7 +27,6 @@ import Website3Image from "./assets/Website3.jpg";
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState("home");
   const [isScrolled, setIsScrolled] = useState(false);
-  const [currentProject, setCurrentProject] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
