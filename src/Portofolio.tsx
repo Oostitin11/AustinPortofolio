@@ -50,12 +50,9 @@ const Portfolio = () => {
   ];
 
   const downloadCV = () => {
-    // Create a link element
     const link = document.createElement("a");
-    link.href = "/AustinOswaldTjokrohandoko_CV.pdf";
-    link.download = "Austin Oswald Tjokrohandoko.pdf";
-
-    // Append to body, click, and remove
+    link.href = "/AustinOswaldTjokrohandoko_CV.pdf"; // 
+    link.download = "Austin-Oswald-Tjokrohandoko.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -408,15 +405,26 @@ const Portfolio = () => {
               <div className="project-list">
                 <div className="project-card">
                   <h4>Nusantara Education Partners</h4>
-                  <p>Nusantara Education Partners is a platform dedicated to fostering educational excellence in Indonesia through collaborative partnerships, tailored programs, and strategic support services.</p>
+                  <p>
+                    Nusantara Education Partners is a platform dedicated to
+                    fostering educational excellence in Indonesia through
+                    collaborative partnerships, tailored programs, and strategic
+                    support services.
+                  </p>
                 </div>
                 <div className="project-card">
                   <h4>LXRe</h4>
-                  <p>Auction Based Websites that was build with using React, amd also Motoko for the blockchain experience..</p>
+                  <p>
+                    Auction Based Websites that was build with using React, amd
+                    also Motoko for the blockchain experience..
+                  </p>
                 </div>
                 <div className="project-card">
                   <h4>Relapse Predictor</h4>
-                  <p>A Websites that will predict Schizoprenia disease based on machine learning prediction.</p>
+                  <p>
+                    A Websites that will predict Schizoprenia disease based on
+                    machine learning prediction.
+                  </p>
                 </div>
               </div>
               <a href="#projects" className="btn">
