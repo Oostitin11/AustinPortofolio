@@ -199,7 +199,7 @@ const Portfolio = () => {
           <div className="about-grid">
             <div>
               <p className="about-text">
-                A Second-Year Computer Science student at Binus University. A
+                A Third-Year Computer Science student at Binus University. A
                 highly motivated individual with a strong enthusiasm for
                 continuous learning in Computer Science, AI, Web Development,
                 and many other technology related sectors. Experienced in
