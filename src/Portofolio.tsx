@@ -23,6 +23,8 @@ import { FaInstagram } from "react-icons/fa";
 import Website1Image from "./assets/Website1.jpg";
 import Website2Image from "./assets/Website2.jpg";
 import Website3Image from "./assets/Website3.jpg";
+import Webiste4Image from './assets/Website4.jpg'
+import CustomCursor from "../src/CustomCursor"
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -89,6 +91,16 @@ const Portfolio = () => {
       live: "#",
       year: "2025",
     },
+    {
+      title: "CookMate Food APp",
+      description:
+        "A Application that can generate some recipe ideas and also some image detection for the ingridients of the food",
+      image: Webiste4Image,
+      tags: ["React Native", "Image Detection"],
+      github: "https://github.com/Oostitin11/Cooking-App",
+      live: "#",
+      year: "2025",
+    },
   ];
 
   const experiences = [
@@ -120,6 +132,7 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio">
+      <CustomCursor />
       {/* Navigation */}
       <nav className={`nav ${isScrolled ? "scrolled" : "transparent"}`}>
         <div className="nav-container">
