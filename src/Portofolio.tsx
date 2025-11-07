@@ -39,16 +39,15 @@ const Portfolio = () => {
   }, []);
 
   const skills = [
-    { name: "React", level: 95, icon: <Code className="w-5 h-5" /> },
-    { name: "Web Dev", level: 90, icon: <Computer className="w-5 h-5" /> },
+    { name: "React", icon: <Code className="w-5 h-5" /> },
+    { name: "Web Dev", icon: <Computer className="w-5 h-5" /> },
     {
       name: "Machine Learning",
-      level: 85,
       icon: <Settings className="w-5 h-5" />,
     },
-    { name: "Node.js", level: 80, icon: <Globe className="w-5 h-5" /> },
-    { name: "UI/UX Design", level: 75, icon: <Palette className="w-5 h-5" /> },
-    { name: "Python", level: 90, icon: <Code className="w-5 h-5" /> },
+    { name: "Node.js", icon: <Globe className="w-5 h-5" /> },
+    { name: "UI/UX Design", icon: <Palette className="w-5 h-5" /> },
+    { name: "Python", icon: <Code className="w-5 h-5" /> },
   ];
 
   const downloadCV = () => {
@@ -278,18 +277,6 @@ const Portfolio = () => {
                 <div className="skill-header">
                   <div className="skill-icon">{skill.icon}</div>
                   <h3 className="skill-name">{skill.name}</h3>
-                </div>
-                <div className="skill-progress">
-                  <div className="progress-header">
-                    <span>Proficiency</span>
-                    <span>{skill.level}%</span>
-                  </div>
-                  <div className="progress-bar">
-                    <div
-                      className="progress-fill"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
                 </div>
               </div>
             ))}
